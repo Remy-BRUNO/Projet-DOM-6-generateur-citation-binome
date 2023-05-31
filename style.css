@@ -23,8 +23,9 @@ main {
 .card {
   padding: 1rem 1.5rem;
   background: white;
+  border-radius: 10px;
   width: 65vw;
-
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
