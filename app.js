@@ -43,7 +43,7 @@ function generateColor() {
   }
   icon.style.color = hexColor;
   btn.style.backgroundColor = hexColor;
-  main.style.backgroundColor = hexColor;
+  main.style.backgroundColor = hexColor + "33";
 }
 btn.addEventListener("click", function () {
   generateColor();
